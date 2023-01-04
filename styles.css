@@ -93,13 +93,28 @@ img {
 }
 
 /* ----------------- */
-/* testimony section */
+/* testimonal section */
 /* ----------------- */
-.quote {
-  background-color: #dedede;
-  height: 20vh;
+.testimonial {
+  background-color: #f3eaf3;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.testimonial p {
+  width: 1000px;
+  margin-bottom: 0;
+  font-size: 25px;
+  font-family: Optima;
+}
+
+.testimonial h3 {
+  width: 1000px;
+  text-align: right;
+}
 /* --------------- */
 /* reusable styles */
 /* --------------- */
