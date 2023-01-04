@@ -1,40 +1,73 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  min-height: 100vh
 }
 
-.header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: darkmagenta;
-    color: white;
-    padding: 16px;
+.header,
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background: darkmagenta;
+  color: white;
+  padding: 16px;
 }
-
 
 .logo {
-    font-size: 32px;
-    font-weight: 900;
+  font-size: 32px;
+  font-weight: 900;
 }
 
 ul {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+
+.hero-item {
+  width: 500px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+button {
+  background-color: white;
+  border: purple;
+  border-radius: 8px;
+  color: purple;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #ed4eed; /* Green */
+  color: white;
 }
 
 img {
-    width: 500px;
+  width: 500px;
 }
 
 .box {
-    width: 75px;
-    height: 75px;
-    border: 2px solid blue;
-    border-radius: 25%;
+  width: 75px;
+  height: 75px;
+  border: 2px solid blue;
+  border-radius: 25%;
 }
-
