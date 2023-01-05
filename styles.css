@@ -7,15 +7,21 @@ body {
 /* ----------------------- */
 /* header and hero section */
 /* ----------------------- */
+.wrapper {
+  background: darkmagenta;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .header,
 .hero {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  background: darkmagenta;
-  color: white;
   padding: 16px;
+  width: 1000px;
 }
 
 .logo {
@@ -33,12 +39,9 @@ ul {
 }
 
 .hero {
-  justify-content: center;
-  flex-wrap: wrap-reverse;
-}
-
-.hero-item {
-  width: 500px;
+  height: 40vh;
+  padding-top: 0;
+  gap: 50px;
 }
 
 .title-1 {
@@ -47,7 +50,8 @@ ul {
 }
 
 img {
-  width: 500px;
+  width: 400px;
+  height: 250px;
 }
 
 /* ------------------- */
