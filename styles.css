@@ -143,6 +143,18 @@ img {
   font-size: 20px;
 }
 
+/* ------ */
+/* footer */
+/* ------ */
+.footer {
+  height: 72px;
+  color: white;
+  background-color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 /* --------------- */
 /* reusable styles */
