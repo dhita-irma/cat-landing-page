@@ -39,7 +39,7 @@ ul {
 }
 
 .hero {
-  height: 40vh;
+  height: 400px;
   padding-top: 0;
   gap: 50px;
 }
@@ -58,7 +58,7 @@ img {
 /* information section */
 /* ------------------- */
 .information {
-  height: 50vh;
+  height: 500px;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -96,26 +96,26 @@ img {
   padding: 15px;
 }
 
-/* ----------------- */
-/* testimonal section */
-/* ----------------- */
-.testimonial {
+/* ------------- */
+/* quote section */
+/* ------------- */
+.quote {
   background-color: #f3eaf3;
-  height: 35vh;
+  height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.testimonial p {
+.quote p {
   width: 1000px;
   margin-bottom: 0;
   font-size: 25px;
   font-family: Optima;
 }
 
-.testimonial h3 {
+.quote h3 {
   width: 1000px;
   text-align: right;
 }
@@ -124,7 +124,7 @@ img {
 /* action box */
 /* ---------- */
 .action {
-  height: 30vh;
+  height: 300px;
 }
 
 .action-box {
