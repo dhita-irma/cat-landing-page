@@ -115,6 +115,35 @@ img {
   width: 1000px;
   text-align: right;
 }
+
+/* ---------- */
+/* action box */
+/* ---------- */
+.action {
+  height: 30vh;
+}
+
+.action-box {
+  width: 1000px;
+  height: 150px;
+  background-color: #c17cdf;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-box div {
+  color: white;
+  width: 65%;
+}
+
+.title-3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
 /* --------------- */
 /* reusable styles */
 /* --------------- */
@@ -132,6 +161,6 @@ button {
 }
 
 button:hover {
-  background-color: #ed4eed; /* Green */
+  background-color: #ed4eed; 
   color: white;
 }
